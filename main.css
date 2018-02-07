@@ -1,6 +1,13 @@
 /* Extra small devices (portrait phones, less than 576px)
  No media query since this is the default in Bootstrap */
+.siteSection {
+    height: 100vh;
+    padding: 15px;
+}
 
+ .carousel-inner {
+    max-height: 80vh;
+}
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { }
 
